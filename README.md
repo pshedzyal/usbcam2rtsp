@@ -24,7 +24,8 @@ bash -c "$(wget -qO- https://raw.githubusercontent.com/pshedzyal/go2rtc-quick-se
 
 ## Usage
 
-Once installed, you can use the following commands:
+- Web UI: `http://{IP}:1984`
 
+Useful commands:
 - To check the service status: `sudo systemctl status go2rtc.service`
 - To view recent logs: `journalctl -u go2rtc.service --no-pager | tail -n 50`
